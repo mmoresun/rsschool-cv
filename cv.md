@@ -84,3 +84,26 @@ _(September 1997 to May 2002)_
 
 - Code Academy JavaScript Courses (February 2022 - March 2022)
 - Software-testing.ru QA Courses (June 2020 - September 2020)
+
+## **Code example (uppercasing first letters of the string):** 
+```
+String.prototype.toJadenCase = function () {
+
+const myString = 'i am the best of the best'; // our original myString
+
+const splittedString = myString.split(" "); // making an array "splittedString" from "myString" with " " separator
+
+for (let i = 0; i < splittedString.length; i++) {
+  splittedString[i] = splittedString[i][0].toUpperCase() + splittedString[i].slice(1);
+ }
+
+// going thru "splittedString" array:
+// - finding first (0th) letter at every cell, capitalize it and adding to "splittedString" array, the same cell 
+// - adding to capitalized letters rest of cell content (from place 1)
+
+return myStringUp = splittedString.join(" ");
+
+// join array "splittedString" to myString
+
+}
+```
