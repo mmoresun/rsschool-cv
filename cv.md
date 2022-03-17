@@ -19,7 +19,18 @@ Hi, I'm Anton. I was born in Moscow at 1980, studied at the Moscow Institute of 
 
 _Moscow (remotely from Kyiv) - 2002 to 2005_
 
+**Duties:**
+
+- writing high-tech news; 
+- writing device reviews; 
+- managing a team of authors;
+- creating videos.
+
 ### **News Editor - Webplanet.ru**
+
+- writing high-tech news; 
+- writing device reviews; 
+- managing a team of authors.
 
 _Moscow (remotely from Kyiv)_
 
@@ -32,10 +43,11 @@ _Moscow (remotely from Kyiv) - November 2008 to March 2022_
 - writing high-tech news; 
 - writing device reviews; 
 - managing a team of authors (5 people) - learning, text editing;
-- interaction with PR, SMM;
+- interaction with PR, SMM (Apple, Sony, Xiaomi, Panasonic, Microsoft, realme and more);
 - social media advertising; 
-- fact-checking;
-- expert columns.
+- making a fact-checking;
+- writing expert columns;
+- creating social media content (Instagram, Facebook).
 
 ### **QA Volunteer**
 
