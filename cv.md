@@ -7,6 +7,8 @@
  
 **Telegram:** <https://t.me/zzebra>
 
+**Discord:** mmoresun#0451
+
 **Phone number:** +90 551 099 3779
 
 **Location:** Antalya, Turkey
