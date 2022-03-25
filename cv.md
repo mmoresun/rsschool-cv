@@ -99,7 +99,7 @@ _(September 1997 to May 2002)_
 - Code Academy JavaScript Courses (February 2022 - March 2022)
 - Software-testing.ru QA Courses (June 2020 - September 2020)
 
-## **Code example (uppercasing first letters of the string):** 
+## **Code example 1 (uppercasing first letters of the string):** 
 ```
 String.prototype.toJadenCase = function () {
 
@@ -119,5 +119,42 @@ return myStringUp = splittedString.join(" ");
 
 // join array "splittedString" to myString
 
+}
+```
+
+
+## Code example 2 (function receives one side of the DNA and returns the other complementary side):
+
+```
+function DNAStrand(dna){
+  
+    const newDNA = dna.split(''); // crecating splitted array from entered string
+
+  let resultDNA = ''; // creating empty variable to saving the result
+
+    for (i = 0; i < dna.length; i++) {
+
+      if (newDNA[i] === 'A') {
+        resultDNA = resultDNA + 'T';
+      }
+      else if (newDNA[i] === 'T') {
+        resultDNA = resultDNA + 'A';
+      }
+
+      else if (newDNA[i] === 'C') {
+        resultDNA = resultDNA + 'G';
+      }
+
+      else if (newDNA[i] === 'G') {
+        resultDNA = resultDNA + 'C';
+      }
+      else {resultDNA = resultDNA;}
+
+    }
+    
+  // going thru every cell of the array. when found "A", add "T" to resultDNA, when found "C", add "G" to resultDNA, etc.
+  
+  return resultDNA; // return result 
+  
 }
 ```
