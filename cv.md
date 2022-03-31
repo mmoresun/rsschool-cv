@@ -158,3 +158,49 @@ function DNAStrand(dna){
   
 }
 ```
+
+## Code example 3 (function transforms string of seconds to "human format" - years, months, days, hours, minutes and seconds): 
+```
+function humanTimeFormat {
+
+let minutes = Math.floor(seconds / 60);
+let hours = Math.floor(minutes / 60);
+let days = Math.floor(hours / 24);
+let months = Math.floor(days / 30);
+let years = Math.floor(months / 12);
+
+if (seconds == '0') {
+  result = 'now';
+}
+
+else if (seconds > 3600 * 24 * 30 * 12) {
+  result = `${years} years, ${months - years * 12} months, ${days - months * 30} days, ${hours - days * 24} hours, ${minutes - hours * 60} minutes and ${seconds - minutes * 60} seconds`;
+}
+
+else if (seconds >= 3600 * 24 * 30 && seconds < 3600 * 24 * 30 * 12) {
+  result = `${months} months ${days - months * 30} days,
+  ${hours - days * 24} hours, ${minutes - hours * 60} minutes and ${seconds - minutes * 60} seconds`  
+}
+
+else if (seconds >= (3600 * 24) && seconds < 3600 * 24 * 30) {
+  result = (`${days} days, ${hours - days * 24} hours
+  ${minutes - hours * 60} minutes and ${seconds - minutes * 60} seconds`);
+}
+
+else if (seconds >= 3600 && seconds < (3600 * 24)) 
+{
+  result = (`${hours} hours, ${minutes - hours * 60} minutes and ${seconds - minutes * 60} seconds`);
+}
+
+else if (seconds < 3600) {
+  result = (`${minutes} minutes and ${seconds - minutes * 60} seconds`);
+}
+
+else if (seconds < 60 ) {
+  result = (`${seconds} seconds`);
+}
+
+return result;
+}
+
+```
